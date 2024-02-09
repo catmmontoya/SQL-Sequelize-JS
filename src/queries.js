@@ -72,7 +72,7 @@ console.log(await printHumansAndAnimals());
 // Return a Set containing the full names of all humans
 // with animals of the given species.
 export async function getHumansByAnimalSpecies(species) {
-  const human = await Human.findAll({
-    where: {},
-  });
+  //   const human = await Human.findAll({
+  //     where: {},
+  //   });
 }
